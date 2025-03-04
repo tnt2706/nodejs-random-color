@@ -67,8 +67,8 @@ fs.readFile(indexHtmlPath, 'utf8', (err, data) => {
 });
 
 // Start the server
-app.listen(80, () => {
-    console.log('Server is running on port 80');
+app.listen(3000, () => {
+    console.log('Server is running on port 3000');
 });
 
 /*Below code block use to simulate a container crash after 15 seconds from started*/
